@@ -1,0 +1,17 @@
+{
+  "name": "06d9f973-e41d-4457-bed8-65ca3e694c22-00-hk1idnpqb8i9-expo-spock-replit-dev",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "copy": "cap copy android",
+    "build": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "6.1.2",
+    "@capacitor/core": "6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "6.1.2",
+    "typescript": "5.4.5"
+  }
+}
